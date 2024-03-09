@@ -1,7 +1,7 @@
 temp = input("Enter a temperature in Celcius ")
 temperature = float(temp)
 if temperature>100:
-    print("The temperature is at boiling point")
+    print("The temperature is above boiling point")
 elif temperature==100:
     print("The temperature is at boiling point")
 elif temperature>0:
